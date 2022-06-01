@@ -1,0 +1,30 @@
+{
+    "name": "doston/yii2-mytest",
+    "description": "Package",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "test"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Doston Usmonov",
+            "email": "doston1533@gmail.com",
+            "homepage": "https://github.com/usmonovdoston/yii2-mytest",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "extra": {
+        "bootstrap": "doston\\mytest\\Bootstrap"
+    },
+    "autoload": {
+        "psr-4": {
+            "doston\\mytest\\": "src"
+        }
+    }
+}
