@@ -1,5 +1,5 @@
 {
-    "name": "doston/yii2-mytest",
+    "name": "usmonovdoston/yii2-mytest",
     "description": "Package",
     "type": "yii2-extension",
     "keywords": [
@@ -20,11 +20,11 @@
         "yiisoft/yii2": "~2.0.0"
     },
     "extra": {
-        "bootstrap": "doston\\mytest\\Bootstrap"
+        "bootstrap": "usmonovdoston\\mytest\\Bootstrap"
     },
     "autoload": {
         "psr-4": {
-            "doston\\mytest\\": "src"
+            "usmonovdoston\\mytest\\": "src"
         }
     }
 }

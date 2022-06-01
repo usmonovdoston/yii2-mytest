@@ -1,5 +1,5 @@
 <?php
-namespace doston\mytest\models;
+namespace usmonovdoston\mytest\models;
 use Yii;
 use yii\db\ActiveRecord;
 class Tests extends ActiveRecord{

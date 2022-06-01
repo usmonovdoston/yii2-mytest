@@ -1,6 +1,6 @@
 <?php
 
-namespace doston\mytest;
+namespace usmonovdoston\mytest;
 
 /**
  * This is just an example.

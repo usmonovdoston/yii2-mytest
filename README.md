@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist doston/yii2-mytest "*"
+php composer.phar require --prefer-dist usmonovdoston/yii2-mytest "*"
 ```
 
 or add
 
 ```
-"doston/yii2-mytest": "*"
+"usmonovdoston/yii2-mytest": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,4 +28,4 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \doston\mytest\AutoloadExample::widget(); ?>```
+<?= \usmonovdoston\mytest\AutoloadExample::widget(); ?>```

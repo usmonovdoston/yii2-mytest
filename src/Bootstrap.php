@@ -1,5 +1,5 @@
 <?php
-namespace doston\mytest;
+namespace usmonovdoston\mytest;
 use Yii;
 use yii\base\BootstrapInterface;
 class Bootstrap implements BootstrapInterface{
@@ -14,6 +14,6 @@ class Bootstrap implements BootstrapInterface{
          * Регистрация модуля в приложении
          * (вместо указания в файле frontend/config/main.php
          */
-        $app->setModule('mytest', 'doston\mytest\Module');
+        $app->setModule('mytest', 'usmonovdoston\mytest\Module');
     }
 }
